@@ -1,0 +1,59 @@
+
+git init 
+git remote add <Desired name on Local Machine> "http link"
+git pull <Name on Local Machine> master
+git push <Name on Local Machine> master
+
+git add -A
+git add <filename with extension>
+
+git commit -a -m "Message here"
+git commit <filename with extension> -m "message"  \\ Untracked file cannot be commit so first add a file
+git status
+
+
+git checkout  <file name with extension>  >> when you have done change in local repositery but dont want
+						and also want to rollback to version is on Cloud Repositery
+
+git reset HEAD <filename with extension>
+
+git branch <desired branch name>  >> creates a branch
+
+git chechout <branch name> >>> switch to that particular branch
+
+git branch -d <branch name>  >> deletes particular branch
+
+ls >> gives files in that selecte branch
+
+git branch >> gives list of the branches
+
+git checkout -b <desired branch name>   >> creates a new branch and moves into it
+
+git merge
+
+git push <Name on Local Machine>
+
+mvn --version
+mvn archetype:generate
+
+goto mvn repositery .com and find the required package or jar file and put its info in xml file created repo.\
+
+
+
+java -jar jenkins.war --httpPort=1235   >> to initiate jenkins // Keep the CMD open while working with jenkins
+
+
+..startsonar
+
+sonar-scanner      do this only sonar.sources is selected.
+
+add in sonar scanner bin properties
+{sonar.projectKey=MyProgram
+sonar.projectName=MyProgram
+sonar.projectVersion=1.0
+sonar.sources=D:/MyProgram/IntegrationProject/src} 
+
+
+
+
+

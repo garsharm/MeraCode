@@ -1,0 +1,67 @@
+Property Files
+
+
+**************************************************************************
+
+
+Core Java 8 and Development Tools
+
+
+JDBC used to make a Communication gateway between java app and oracle(SQL ..
+
+
+
+JDBC packages
+java.sql.*
+javax.sql.*
+
+in jdbc 4.0 something is not required...
+
+
+TO ESTABLISH A CONNECTION
+
+	try {
+			InputStream fileRead =new FileInputStream("resources/oracle.properties");
+			Properties prop=new Properties();
+			prop.load(fileRead);
+			String driver=prop.getProperty("oracle.driver");
+			String url=prop.getProperty("oracle.url");
+			String uname=prop.getProperty("oracle.username");
+			String pass=prop.getProperty("oracle.password");
+			
+		//	System.out.println("Name is: "+uname+"... Password is:"+pass+" "+url+" "+driver);
+			Class.forName(driver);
+			Connection conn=DriverManager.getConnection(url, uname, pass);
+			System.out.println("Connection Established");
+			
+			
+		} catch (IOException | ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+		e.printStackTrace();
+		System.out.println("Connection not Established");
+		}
+
+
+
+
+statement and PreparedStatement -- --- SQL
+
+CallableStatement -------- PL/SQL
+
+
+Connection is datatype in java.sql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

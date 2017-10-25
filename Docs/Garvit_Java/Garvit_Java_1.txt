@@ -1,0 +1,68 @@
+Native code of the operating system.
+
+Compiler - JIT_COMPILER enhance the speed.
+
+compiler creates .class format.
+which is readable by the JRE.
+
+
+variables - primitive eg int, String etc
+		references eg  Student student; \\ which is a null
+
+
+public ,private,protected
+
+
+""final"" public class student(){}  writing final will restrict the further inheritance.
+
+boolean statusAge= age>=18;
+
+
+Import /Export projects as zip format.
+
+Export as .jar and addd in run configurations..
+
+
+
+
+IN eclipse :: right click >> refractor >> change the name of the variable 
+						it will automatically change everywhere.
+
+
+Run as debug
+
+
+int x=1_00_000;    \\is same as 100000  just to improve readability.
+
+
+int y=0b1010;   \\to assign as value in binary form just add 0b prefix
+
+int Z=0x12abc;	\\to assign as value in hexa    0x
+
+Select the code >> goto source >> format .  \\ itwill format acc to java standards/
+
+
+
+Right click >> build path >>configure it.
+
+
+Window>>Preferences >>Build path>> classpath variable
+
+
+
+
+import java.util.Scanner;
+Scanner sc=new Scanner(System.in);
+		String name=sc.nextLine();
+		int id= sc.nextInt();
+		long l= sc.nextLong();
+		System.out.println(name);
+		System.out.println(id);
+		System.out.println(l);
+
+
+
+
+
+
+ 

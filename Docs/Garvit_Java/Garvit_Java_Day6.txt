@@ -1,0 +1,58 @@
+Array  and collection 
+
+in array >>  indexing >> ordered storing of values>> can be called by index value >> space is fixed during RunTime.
+in array >> duplicate values are allowed.
+in array >> we cannot delete the value but 0 can be assigned in such cases.
+
+
+
+in collection >> Hash code is generated for each value >> cannot be called by index value >> space is flexible during RunTime.
+in collection >> duplicate values are not allowed.
+in collection >> algo for searching a value >> method toget to directly jump to the value.
+
+Link List >> Updation and Deletion is very fast.
+
+in MAP >>		MAP(key: value)		 
+in MAP >> here key are defined by us while in array indexing is done by system. Key cannot be duplicated.
+in MAP >> is 
+
+
+
+TreeSet >> sorting where no duplicates are allowed .. a
+
+
+String Buffer is Synchronised while StringBuilder is not.
+
+Collection >> for each loop fixes the data and we can only read data.
+
+Iterator moves in forward direction only while List can go both up and down direction
+
+
+we cannot add string collection to a integer collection.
+
+*************************************************************************
+
+private variable can only be accessible in sub class.
+
+super(); is always called first when subclass constructor is used . New obj is created.
+
+Type Casting::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

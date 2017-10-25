@@ -1,0 +1,16 @@
+"[a-z]{3,6}(.*)[0-9]{4}"
+// square brackets represents the allowed characters and Curly Brackets represents the length allowed 
+ 	Length can be fixed {4} or can be variable {3,6} . Character order should be strictly followed.
+	eg. First there should be a-z then numbers and 
+	.* represents anything canbe entered.    . means any character and .* means any no. of (.)characters.
+
+
+
+\\D{3}\\s\\sd{4} Here \\d represents digits and \\D represents other than digits and \\s represents space.
+
+  ("[aeiou]",1)  any character matches with aeiou will be replaced by1 .
+
+[a-z&&[def]]   will allow only d e f characters from a-z.
+
+$ dollar means end of string 
+^ carrat means start of string 

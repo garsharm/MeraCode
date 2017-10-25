@@ -1,0 +1,127 @@
+Operations are perfromed left to right .
+innnermost brackets are performed first.
+
+boolean status=(ress<=30);
+
+static methods should be access by the class.method();  not object.method();
+
+
+raju=null; where raju is an object but now it is overwrite by garbage collector.
+		which is dereferenced and latter will be deleted by garb. coll.
+
+null value can be assignable to refernce variable not on premitive.
+
+
+
+JRE below 1.7 cant take string in swith cases. 
+To change the JRE version goto build path config of the project and go compiler 
+and change the version.
+
+
+Tab Project >> untick build autom. >> clean >> tick again build autom.
+To delete .class file from compiler .
+
+for-each loop 	
+ int arr[]={1000,2000,3000};
+	
+for(int i:arr){
+System.out.println(i);
+}
+
+
+Switch cases should be in ascending order way.
+
+abstract method should be define in abstract class.
+
+In abstract class no object can be formed.
+
+If we import two packages and both packages have same name class then we have 
+to give full name to access the particular class.
+
+Arguments in command line ..  is always taken as String.
+
+all objects are sub class of Object class;\
+
+Because primitive values cannot be object  wrapper class makes it possible to hold it as object.
+Wrapper class   >> holding primitive values as an object; once value is given then it cannot change.
+
+int a=10;q			here a is primitive 
+Interger i= new Integer(10);   here i is object
+
+Float.parseFloat(data); 	converting string to float
+
+ff=1233.4f;
+Float yyy= Float.valueof(ff);
+
+
+
+ Scanner sc=  new Scanner("1,2,3,5,5").useDelimiter(",");
+
+*********************************************************************
+
+
+boolean st=lower.equals(upper);    \\always use equals method to compare two objects
+
+StringBuffer class is thread safe
+StringBuilder is not thread safe
+
+"public void addString(StringBuffer str1){
+		str1= new StringBuffer(str1);
+		str1.append(str1);"
+			
+
+we cannot compare two StringBuffer by equal method because equal method is not in stringBuffer
+
+
+\\ java 8 api >> Java.lang >> strings andall methods...
+
+
+
+
+****************************************************************************
+
+Date and Time API
+
+import java.time.Instant;
+import java.time.LocalDate;
+
+
+all date time values are immutable thats why we cannot add or remove any date created and\
+we will creating new date and time value after every operations on the date..
+
+
+
+
+
+
+for(int i=0;i<len;i++){
+variables[i] = new String("hello");
+variables[i] = variables[i].intern();   // string values are immutable and two copies 
+}					// are stored one in heap and other in ..
+					// intern() will convert or use other then heap.
+
+
+
+
+
+if(tkt instanceOf ticket){} 	to check inheritance.
+
+
+***********************
+Polymorphism 
+
+
+After Overriding 
+
+Super.method();		will call the same overridden methon from super class along with its own.
+
+\\ To compare strings you cant use == operation use equals method because both strings will have
+	different method.
+
+
+\\Stream class should always be closed  sc.close();
+
+
+
+
+

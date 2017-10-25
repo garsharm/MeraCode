@@ -1,0 +1,64 @@
+Layer Architecture
+
+
+Presentation Layer	(app UI)
+
+Service/Business Logic Layer	(service Interfaces)+(Service implementation)
+
+Data Access Layer	(DAO Interfaces)(DAO Implementaion)
+
+				DATABASE
+
+DOMAIN OBJECTS(Data Transfer Objects) is centralized access to each layer by each layer.
+
+
+CURD operation
+
+
+static method dont need obj to get called 
+
+System streams are 1.in 2.out 3.err 
+
+""
+IEmployeeService empService =new EmployeeServiceImpl();
+
+security level is increased since we are taking refernce from Interface (IEmployeeService)
+and it is not possible to create object in interface so we are creating object in class which is implementing it.
+
+""
+
+e.printStackTrace();  // this is for developer only .. if we are delivering to client we should remove this/or handle this..
+
+
+  file.read()    when this is executed it read current character and moves to next.
+now again when we call file.read() it will scan current moves next
+if we call file.read() two time in a row without storing its value it will only store the \
+last one.
+
+InputStream filetoRead=null;
+OutputStream filetoWrite=null,fie2=null;
+
+filetoRead=new FileInputStream("abc.txt");
+filetoWrite= new FileOutputStream("bcd.txt");
+
+
+Reader filetoRead=null;
+Writer filetoWrite=null,fie2=null;
+
+filetoRead=new FileReader("abc.txt");
+filetoWrite= new FileWriter("bcd.txt");
+fie2=new FileWriter("123.txt");
+
+
+BufferedReader filetoRead=null;
+BufferedWriter filetoWrite=null,fie2=null;
+
+filetoRead=new BufferedReader(new FileReader("abc.txt"));
+filetoWrite= new BufferedWriter(new FileWriter("bcd.txt"));
+fie2=new BufferedWriter(new FileWriter("123.txt"));
+
+
+
+
+
+
